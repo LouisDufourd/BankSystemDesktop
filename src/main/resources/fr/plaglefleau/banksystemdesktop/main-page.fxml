@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.plaglefleau.banksystemdesktop.MainPageController">
+   <Button fx:id="logOffButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onKeyPressed="#onKeyPressedLogOff" onMouseClicked="#onClickLogOff" text="Log off" AnchorPane.topAnchor="14.0" />
+   <Button fx:id="parametersButton" layoutX="510.0" layoutY="14.0" mnemonicParsing="false" onKeyPressed="#onKeyPressedSettings" onMouseClicked="#onClickSettings" text="Settings" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   <Button fx:id="myAccountsButton" layoutX="171.0" layoutY="153.0" minWidth="124.0" mnemonicParsing="false" onKeyPressed="#onKeyPressedMyAccounts" onMouseClicked="#onClickMyAccounts" text="My accounts" AnchorPane.leftAnchor="171.0" AnchorPane.topAnchor="153.0" />
+   <Button fx:id="sendMoneyButton" layoutX="305.0" layoutY="153.0" minWidth="124.0" mnemonicParsing="false" onKeyPressed="#onKeyPressedSendMoney" onMouseClicked="#onClickSendMoney" text="Send money" AnchorPane.rightAnchor="171.0" AnchorPane.topAnchor="153.0" />
+   <Label fx:id="titleLabel" layoutX="171.0" layoutY="27.0" style="-fx-font-size: 50;" text="My account" AnchorPane.topAnchor="18.0" />
+   <Label fx:id="balanceLabel" layoutX="93.0" layoutY="134.0" style="-fx-font-size: 40;" text="Total balance : 500,00 €" AnchorPane.topAnchor="90.8359375" />
+</AnchorPane>
